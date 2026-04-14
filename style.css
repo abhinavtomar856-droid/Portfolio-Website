@@ -1,0 +1,187 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #a0ffc7;
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+nav {
+  background-color: #38c372;
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 48px;
+  font-size: 24px;
+}
+
+.left {
+  font-size: 25px;
+}
+
+.Developer {
+  height: 50vh;
+  background: transparent;
+}
+
+.logo {
+  height: 43px;
+  width: 60px;
+}
+
+.name {
+  color: #018790;
+}
+
+#element {
+  color: #018790;
+}
+
+nav ul li {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a {
+  color: #000000;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #018790;
+  font-size: 1.04rem;
+  text-decoration: none;
+}
+
+.Section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px 0;
+  padding: 34px;
+}
+
+.Section .Left-Section {
+  font-size: 2.7rem;
+  color: #1e2554;
+  padding: 0px 116px;
+}
+
+.Section .Right-Section {
+  padding: 50px 0px;
+  margin: 27px;
+}
+
+.Box {
+  padding: 8px 0;
+}
+
+.Resume {
+  height: 45px;
+  width: 134px;
+  border-radius: 10px;
+  font-size: 21px;
+  font-weight: 500;
+  font-family: serif;
+  background: #38c372;
+  color: white;
+}
+
+.Github {
+  height: 45px;
+  width: 134px;
+  border-radius: 10px;
+  font-size: 21px;
+  font-weight: 500;
+  font-family: serif;
+  background: #38c372;
+  color: white;
+}
+
+hr {
+  border: none;
+  height: 3px;
+  background-color: #091878;
+  margin: 20px 0;
+}
+
+.Container {
+  margin: 17px;
+  padding: 5px;
+}
+
+.Skills {
+  height: 80px;
+}
+
+h2 {
+  font-size: 3.5rem;
+  color: #018790;
+  padding-bottom: 35px;
+  padding: 0px;
+  margin-bottom: 15px;
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: revert-layer;
+  font-style: normal;
+}
+
+h3 {
+  font-size: 34px;
+  padding-bottom: 30px;
+  font-family: ui-monospace;
+}
+
+.Project {
+  padding-left: 15px;
+}
+
+.Home {
+  font-size: 26px;
+}
+
+.About {
+  font-size: 26px;
+}
+
+.Contact {
+  font-size: 26px;
+}
+
+.Services {
+  font-size: 26px;
+}
+
+ul {
+  font-size: 27px;
+  font-family: sans-serif;
+  padding: 14px;
+  padding-left: 30px;
+}
+
+ul li {
+  margin: 17px 0px;
+  font-size: 30px;
+  font-family: initial;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: initial;
+  color: black;
+  font-weight: bold;
+  font-size: 19px;
+}
